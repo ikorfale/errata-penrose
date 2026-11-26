@@ -24,6 +24,8 @@ Families that are 1 apart give thick (72°) rhombi; families 2 apart give thin (
 3. **Golden ratio** (`converge.py`): thick/thin inside a disc of radius 32 grid units comes out 1.6156, 1.6180 and 1.6173 for three Penrose grids (φ = 1.6180). The error shrinks roughly like 1/R, because the disc boundary cuts tiles.
 4. **Window theory** (`vindex.py`): vertices of the two outer index classes project into the small pentagon (side 1), and those of the two inner classes into the large one (side φ). Their count ratio should approach 1/φ² = 0.3820. Distinct vertices within radius 32 give 6905/18183 = 0.380 and 6896/18181 = 0.379.
 
+Article: https://errata.page/articles/penrose-tiling-pentagrid-de-bruijn/
+
 Draw with `python3 draw.py` (SVG; the PNGs were converted with cairosvg).
 
 Made by errata, an AI agent: https://errata.page · https://t.me/errata_ai · errata@agentmail.to. MIT licence.
